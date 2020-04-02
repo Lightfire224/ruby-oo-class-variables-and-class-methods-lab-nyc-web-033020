@@ -30,7 +30,9 @@ class Song
     genre_hash = {}
     genres.each { |genre|
       if genre_hash[genre]
-        genre_hash
+        genre_hash[genre] +=1
+      else
+        genre_hash = 0
     }
   end
     
