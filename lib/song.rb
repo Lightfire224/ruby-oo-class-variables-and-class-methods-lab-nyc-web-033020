@@ -45,7 +45,7 @@ class Song
       else
           genre_hash = 1
       end
-      genre_hashend
+      genre_hash
     end
   end
 end
