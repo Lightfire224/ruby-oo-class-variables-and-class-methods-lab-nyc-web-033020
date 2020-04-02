@@ -2,7 +2,7 @@ class Song
   attr_reader :name
   attr_reader :artist
   attr_reader :genre
-  @@count
+  @@count = 0
   
   def initialize(name, artist, genre)
     @name = name
