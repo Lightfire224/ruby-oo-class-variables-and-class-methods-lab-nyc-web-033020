@@ -47,5 +47,5 @@ class Song
       end
       genre_hashend
     end
-    
+  end
 end
