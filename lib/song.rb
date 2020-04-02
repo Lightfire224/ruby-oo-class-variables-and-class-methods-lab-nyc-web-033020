@@ -17,6 +17,6 @@ class Song
   end
   
   def self.artists
-    @@artist
+    @@artists
   end
 end
