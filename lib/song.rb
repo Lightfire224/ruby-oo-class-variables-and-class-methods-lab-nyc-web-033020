@@ -47,5 +47,6 @@ class Song
         artist[song] = 1
       end
     end
-    artist_hash
+  end
+  artist_hash
 end
